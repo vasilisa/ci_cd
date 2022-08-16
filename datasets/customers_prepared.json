@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1660652976027
+    "lastModifiedOn": 1660652983723
   },
   "tags": [
     "creator_admin"
@@ -249,7 +249,15 @@
     "displayedState": {
       "partition": "NP",
       "columns": [],
-      "metrics": []
+      "metrics": [
+        "col_stats:MEAN:Total_Charge",
+        "col_stats:MEAN:total_Mins",
+        "col_stats:MAX:Day_Charge",
+        "col_stats:MAX:Night_Charge",
+        "col_stats:MIN:Day_Charge",
+        "col_stats:MIN:Night_Charge",
+        "records:COUNT_RECORDS"
+      ]
     }
   },
   "metricsChecks": {
