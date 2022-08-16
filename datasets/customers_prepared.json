@@ -59,6 +59,13 @@
     "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": []
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1660652976027
+  },
   "tags": [
     "creator_admin"
   ],
@@ -99,11 +106,106 @@
       {"name":"CustServ_Calls","type":"bigint"},
       {"name":"Churn","type":"boolean"}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
-    "probes": [],
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "col_stats",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Columns statistics",
+          "level": 2
+        },
+        "configuration": {
+          "aggregates": [
+            {
+              "column": "Day_Charge",
+              "aggregated": "MIN"
+            },
+            {
+              "column": "Day_Charge",
+              "aggregated": "MAX"
+            },
+            {
+              "column": "Night_Charge",
+              "aggregated": "MIN"
+            },
+            {
+              "column": "Night_Charge",
+              "aggregated": "MAX"
+            },
+            {
+              "column": "total_Mins",
+              "aggregated": "MEAN"
+            },
+            {
+              "column": "Total_Charge",
+              "aggregated": "MEAN"
+            }
+          ]
+        }
+      },
+      {
+        "type": "adv_col_stats",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Most frequent values",
+          "level": 3
+        },
+        "configuration": {
+          "aggregates": [],
+          "numberTopValues": 10
+        }
+      },
+      {
+        "type": "percentile_stats",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Columns percentiles",
+          "level": 4
+        },
+        "configuration": {
+          "aggregates": []
+        }
+      },
+      {
+        "type": "verify_col",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Data validity",
+          "level": 4
+        },
+        "configuration": {
+          "aggregates": []
+        }
+      }
+    ],
     "engineConfig": {
       "padRunsWithMetrics": false,
       "hive": {
@@ -145,6 +247,7 @@
       "python": {}
     },
     "displayedState": {
+      "partition": "NP",
       "columns": [],
       "metrics": []
     }
@@ -153,6 +256,7 @@
     "runOnBuild": false,
     "checks": [],
     "displayedState": {
+      "partition": "NP",
       "checks": []
     }
   },
