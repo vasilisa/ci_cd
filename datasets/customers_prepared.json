@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1660653103154
+    "lastModifiedOn": 1660653110176
   },
   "tags": [
     "creator_admin"
@@ -298,7 +298,10 @@
     ],
     "displayedState": {
       "partition": "NP",
-      "checks": []
+      "checks": [
+        "Value in range of Avg of total_Mins",
+        "Value in range of Avg of Total_Charge"
+      ]
     }
   },
   "customFields": {}
