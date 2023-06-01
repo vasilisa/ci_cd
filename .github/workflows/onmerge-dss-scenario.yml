@@ -8,7 +8,7 @@ on:
 jobs:
   if_merged:
     if: github.event.pull_request.merged == true # the merge was succesful
-    runs-on: ubuntu-latest
+    runs-on: macos-latest # isssues with python versions on ubuntu-latest
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
