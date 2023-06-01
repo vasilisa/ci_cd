@@ -1,1 +1,1 @@
-dataikuapi 
+dataiku-api-client
