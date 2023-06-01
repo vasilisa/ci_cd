@@ -1,7 +1,7 @@
 import dataikuapi
 
-host   = "http://localhost:12000"
-apiKey = "L9hfiTrr8emZaPJIEujuTD47caueRhhu"
+host   = "HOSTNAME:PORTNAME"
+apiKey = "APIKEY"
 
 # initiate the client 
 client = dataikuapi.DSSClient(host,apiKey)
