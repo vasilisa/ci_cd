@@ -3,7 +3,7 @@ import dataikuapi
 host   = "HOSTNAME:PORTNAME"
 apiKey = "APIKEY"
 
-# initiate the client 
+# initiate the client OUTSIDE DATAIKU
 client = dataikuapi.DSSClient(host,apiKey)
 
 # print(f'{client.list_project_keys()}\n',)
