@@ -4,11 +4,11 @@
       "remote": "git@github.com:vasilisa/ci_cd.git",
       "checkout": "",
       "remotePath": "",
-      "lastHash": "bab9cc01d51f74f48784147a4b7f06e294b062f0",
+      "lastHash": "6a36ffba653cf908599522724fb80bfb104d155f",
       "conflictingFiles": [],
       "resolvedFiles": [],
       "faultyHash": "",
-      "isDirty": true
+      "isDirty": false
     },
     "python/test": {
       "remote": "git@github.com:dataiku/academy-samples.git",
