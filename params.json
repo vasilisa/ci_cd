@@ -190,7 +190,7 @@
     },
     {
       "user": "viewer",
-      "admin": false,
+      "admin": true,
       "readProjectContent": false,
       "writeProjectContent": true,
       "exportDatasetsData": true,
