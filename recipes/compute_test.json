@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "params": {
     "customConfig": {
-      "distribution": "Tweedie"
+      "distribution": "NegativeBinomial"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
