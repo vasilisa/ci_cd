@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "params": {
     "customConfig": {
-      "distribution": "NegativeBinomial"
+      "distribution": "Poisson"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
