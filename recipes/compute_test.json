@@ -1,0 +1,52 @@
+{
+  "type": "CustomCode_fitdistribution",
+  "neverRecomputeExistingPartitions": false,
+  "params": {
+    "customConfig": {},
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "hashPropagationBehavior": "INHERIT",
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "transactions_joined",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main_output": {
+      "items": [
+        {
+          "ref": "test",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "vasilisa"
+    },
+    "lastModifiedOn": 1739143958294,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
