@@ -21,7 +21,7 @@
     "main": {
       "items": [
         {
-          "ref": "transactions",
+          "ref": "transactions_SQL",
           "deps": []
         }
       ]
