@@ -21,7 +21,7 @@
     "main": {
       "items": [
         {
-          "ref": "cardholder_info_copy",
+          "ref": "transactions",
           "deps": []
         }
       ]
