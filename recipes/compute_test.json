@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "params": {
     "customConfig": {
-      "distribution": "Poisson"
+      "distribution": "Tweedie"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
