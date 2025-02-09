@@ -2,7 +2,9 @@
   "type": "CustomCode_fitdistribution",
   "neverRecomputeExistingPartitions": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "distribution": "Poisson"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
