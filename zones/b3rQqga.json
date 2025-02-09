@@ -37,10 +37,6 @@
     {
       "objectId": "compute_transactions_joined_prepared",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "compute_test",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
