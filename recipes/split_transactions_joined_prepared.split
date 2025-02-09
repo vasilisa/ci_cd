@@ -98,6 +98,7 @@
               "input": "purchase_date_parsed",
               "col": "transaction_id",
               "time2": "00:00",
+              "$showList": false,
               "num": 0,
               "appliesTo": "value",
               "time": "00:00",
@@ -175,6 +176,30 @@
                 "type": "bigint"
               },
               {
+                "name": "merchant_merchant_id",
+                "type": "string"
+              },
+              {
+                "name": "merchant_merchant_category_id",
+                "type": "bigint"
+              },
+              {
+                "name": "merchant_subsector_description",
+                "type": "string"
+              },
+              {
+                "name": "merchant_latitude",
+                "type": "double"
+              },
+              {
+                "name": "merchant_longitude",
+                "type": "double"
+              },
+              {
+                "name": "card_internal_card_mapping",
+                "type": "string"
+              },
+              {
                 "name": "card_first_active_month",
                 "type": "string"
               },
@@ -200,22 +225,10 @@
               },
               {
                 "name": "card_fico_score",
-                "type": "bigint"
-              },
-              {
-                "name": "card_age",
-                "type": "bigint"
-              },
-              {
-                "name": "merchant_subsector_description",
-                "type": "string"
-              },
-              {
-                "name": "merchant_latitude",
                 "type": "double"
               },
               {
-                "name": "merchant_longitude",
+                "name": "card_age",
                 "type": "double"
               },
               {
