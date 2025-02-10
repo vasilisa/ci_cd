@@ -2,7 +2,7 @@
   "gitReferences": {
     "python/CI-CD": {
       "remote": "git@github.com:vasilisa/ci_cd.git",
-      "checkout": "",
+      "checkout": "refs/heads/dev-1",
       "remotePath": "",
       "lastHash": "bab9cc01d51f74f48784147a4b7f06e294b062f0",
       "conflictingFiles": [],
