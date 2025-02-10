@@ -19,24 +19,13 @@
       "resolvedFiles": [],
       "faultyHash": "",
       "isDirty": false
-    },
-    "CI-CD": {
-      "remote": "git@github.com:vasilisa/ci_cd.git",
-      "checkout": "",
-      "remotePath": "",
-      "lastHash": "4680799f7a7c68b1ad6af1d93554a21cdb420ec8",
-      "conflictingFiles": [],
-      "resolvedFiles": [],
-      "faultyHash": "",
-      "isDirty": false
     }
   },
   "pythonPath": [
     "python/BayesianMMM",
     "python/CI-CD",
     "python/",
-    "python/test",
-    "CI-CD"
+    "python/test"
   ],
   "rsrcPath": [
     "R"
