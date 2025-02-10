@@ -1,15 +1,5 @@
 {
   "gitReferences": {
-    "python": {
-      "remote": "git@github.com:vasilisa/ci_cd.git",
-      "checkout": "refs/heads/dev-1",
-      "remotePath": "",
-      "lastHash": "ef665ab845053bc9405b311e9c42afa8500e22e0",
-      "conflictingFiles": [],
-      "resolvedFiles": [],
-      "faultyHash": "",
-      "isDirty": false
-    },
     "python/CI-CD": {
       "remote": "git@github.com:vasilisa/ci_cd.git",
       "checkout": "refs/heads/main",
