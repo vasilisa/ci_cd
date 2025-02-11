@@ -14,6 +14,7 @@ from dataviz import plot_3d
 
 # Read recipe inputs
 dataset = dataiku.Dataset("transactions_joined_prepared")
+
 df      = transactions_joined_prepared.get_dataframe()
 
 
