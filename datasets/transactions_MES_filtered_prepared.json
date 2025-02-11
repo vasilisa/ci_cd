@@ -102,7 +102,8 @@
       {"name":"card_reward_program","type":"string"},
       {"name":"card_fico_score","type":"bigint"},
       {"name":"card_age","type":"bigint"},
-      {"name":"merchant_cardholder_distance","type":"double"}
+      {"name":"merchant_cardholder_distance","type":"double"},
+      {"name":"card_state","type":"string"}
     ],
     "userModified": true
   },
