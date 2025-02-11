@@ -26,12 +26,9 @@ df_avg_purchase = df_ny[['card_age', 'purchase_year', 'purchase_amount']].groupb
 picture = plot_3d(df_avg_purchase, "purchase_year", "card_age", "purchase_amount", country)
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-folder = dataiku.Folder("07joGq0S")
+# Write recipe outputs
+
+folder = dataiku.Folder("aLYZh2F9")
 folder.upload_stream(f"{country}-3D.png", picture.getvalue())
 
 
-
-
-# Write recipe outputs
-output_dataviz = dataiku.Folder("aLYZh2F9")
-output_dataviz_info = output_dataviz.get_info()
