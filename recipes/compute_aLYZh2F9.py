@@ -1,3 +1,4 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 import dataiku
 import pandas as pd, numpy as np
@@ -10,13 +11,13 @@ import io
 
 from dataviz import plot_3d
 
-
-
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs
 dataset = dataiku.Dataset("transactions_joined_prepared")
 
-df      = transactions_joined_prepared.get_dataframe()
+df      = dataset.get_dataframe()
 
+country = "US"
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 df_ny = df.loc[df["merchant_state"]=="New York"]
@@ -31,5 +32,3 @@ picture = plot_3d(df_avg_purchase, "purchase_year", "card_age", "purchase_amount
 
 folder = dataiku.Folder("aLYZh2F9")
 folder.upload_stream(f"{country}-3D.png", picture.getvalue())
-
-
