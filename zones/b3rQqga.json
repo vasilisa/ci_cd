@@ -37,6 +37,14 @@
     {
       "objectId": "compute_transactions_joined_prepared",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_aLYZh2F9",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "aLYZh2F9",
+      "objectType": "MANAGED_FOLDER"
     }
   ],
   "shared": [],
