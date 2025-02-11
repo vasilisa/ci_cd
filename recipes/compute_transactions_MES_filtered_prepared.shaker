@@ -50,7 +50,8 @@
           "card_age",
           "merchant_cardholder_distance",
           "card_reward_program",
-          "item_category"
+          "item_category",
+          "card_state"
         ],
         "keep": true,
         "appliesTo": "COLUMNS"
